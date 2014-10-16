@@ -18,8 +18,8 @@
 \definecolor{white}{RGB}{255,255,255}
 
 \definecolor{darkgray}{HTML}{111111}
-\definecolor{gray}{HTML}{333333}
-\definecolor{lightgray}{HTML}{666666}
+\definecolor{gray}{HTML}{222222}
+\definecolor{lightgray}{HTML}{444444}
 
 \definecolor{green}{HTML}{C2E15F}
 \definecolor{orange}{HTML}{FDA333}
@@ -170,7 +170,28 @@ BoldItalicFont=texgyreheros-bolditalic.otf
     {\footnotesize\addfontfeature{Color=lightgray} #3}\\%
     #4\vspace{\parsep}%
   }\\}
-
+\newcommand{\entryx}[5]{%
+  \textbf{#1}%
+  \hfill%
+  {\addfontfeature{Color=lightgray} #3}%
+  \\%
+  \emph{#2}%
+  \hfill%
+  {\footnotesize\addfontfeature{Color=lightgray} \emph{#4}}%
+  \\%
+  \parbox[t]{14cm}{#5}%
+  \vspace{\parsep}%
+  \\%
+  }
+\newcommand{\entryy}[3]{%
+  \textbf{#1}%
+  \hfill%
+  {\footnotesize\addfontfeature{Color=lightgray} \emph{#2}}%
+  \\%
+  \parbox[t]{14cm}{#3}%
+  \vspace{\parsep}%
+  \\%
+  }
 
 %%%%%%%%%%%%%%
 % Side block %
