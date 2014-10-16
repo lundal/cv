@@ -17,9 +17,9 @@
 
 \definecolor{white}{RGB}{255,255,255}
 
-\definecolor{darkgray}{HTML}{333333}
-\definecolor{gray}{HTML}{4D4D4D}
-\definecolor{lightgray}{HTML}{999999}
+\definecolor{darkgray}{HTML}{111111}
+\definecolor{gray}{HTML}{333333}
+\definecolor{lightgray}{HTML}{666666}
 
 \definecolor{green}{HTML}{C2E15F}
 \definecolor{orange}{HTML}{FDA333}
