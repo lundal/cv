@@ -192,6 +192,10 @@ BoldItalicFont=texgyreheros-bolditalic.otf
   \vspace{\parsep}%
   \\%
   }
+\newcommand{\entryspace}[0]{%
+  \vspace{-\parsep}%
+  \\%
+  }
 
 %%%%%%%%%%%%%%
 % Side block %
