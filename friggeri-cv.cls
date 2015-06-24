@@ -8,7 +8,6 @@
 \ProcessOptions\relax
 \LoadClass{article}
 
-
 %%%%%%%%%%
 % Colors %
 %%%%%%%%%%
@@ -110,7 +109,6 @@ BoldItalicFont=texgyreheros-bolditalic.otf
   \vspace{-2\parskip}
 }
 
-
 %%%%%%%%%%%%%
 % Structure %
 %%%%%%%%%%%%%
@@ -150,7 +148,6 @@ BoldItalicFont=texgyreheros-bolditalic.otf
 }
 
 \pagestyle{empty}
-
 
 %%%%%%%%%%%%%%%%%%%%
 % List environment %
@@ -209,7 +206,7 @@ BoldItalicFont=texgyreheros-bolditalic.otf
   \renewcommand{\section}[1]{
     \par\vspace{\baselineskip}{\Large\headingfont\color{headercolor} ##1}
   }
-  \begin{textblock}{3.6}(1.5, 3.83)
+  \begin{textblock}{3.6}(1.5, 4.33)
   \begin{flushright}
   \obeycr
 }{%
@@ -326,11 +323,9 @@ BoldItalicFont=texgyreheros-bolditalic.otf
   \sort[direction=descending]{\field{month}}
 }
 
-
-
 %%%%%%%%%%%%%%%%
 % Other tweaks %
 %%%%%%%%%%%%%%%%
 
-\RequirePackage[left=6.1cm,top=2cm,right=1.5cm,bottom=1.5cm,nohead,nofoot]{geometry}
+\RequirePackage[left=6.1cm,top=2.5cm,right=1.5cm,bottom=2.5cm,nohead,nofoot]{geometry}
 \RequirePackage{hyperref}
