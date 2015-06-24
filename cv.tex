@@ -1,40 +1,16 @@
 %!TEX TS-program = xelatex
-\documentclass[print]{friggeri-cv}
+\documentclass[print,a4paper]{friggeri-cv}
 
 \begin{document}
-\header{Per Thomas }{Lundal}
-       {Take it apart - Discover it's secrets}
 
-% In the aside, each new line forces a line break
-\begin{aside}
-    \section{Contact}
-        Birkebeinervegen 12
-        7037 Trondheim
-        Norway
-        ~
-        \href{mailto:perthomas@gmail.com}{perthomas@gmail.com}
-        +47 930 51 129
-        ~
-        \href{http://github.com/lundal}{http://github.com/lundal}
-        \href{http://lund.al}{http://lund.al}
-    \section{Languages}
-        Native Norwegian
-        Fluent English
-        Basic Spanish
-        ~
-        Java, C\#, C
-        Python
-        Assembly
-        VHDL
-\end{aside}
+\input{header}
 
 \section{Interests}
 
 Computer Architecture and Design,
 Microcontrollers,
 FPGA,
-Bio-inspired Computing,
-\\
+Bio-Inspired Computing,
 Graphics,
 Artificial Intelligence,
 Security,
@@ -43,7 +19,8 @@ Science,
 3D Printing,
 Games.
 
-\vspace{2mm}
+\vspace{2mm} % Fix spacing since there is no entrylist
+
 \section{Education}
 
 \begin{entrylist}
@@ -104,6 +81,9 @@ Games.
 \end{entrylist}
 
 \clearpage
+
+\input{header}
+
 \section{Projects}
 
 \begin{entrylist}
@@ -135,7 +115,7 @@ Games.
         {A three-man project for the STK1000 development board which features an AVR32 microcontroller, in three parts:\\
         - A LED and button demo written in assembly\\
         - A MIDI player written in C\\
-        - A game (including engine) written in C for Linux with custom drivers for LEDs and buttons}
+        - A game (with engine) written in C for Linux with custom drivers for LEDs and buttons}
 \end{entrylist}
 
 \end{document}
